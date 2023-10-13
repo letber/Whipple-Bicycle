@@ -10,6 +10,19 @@ For more information regarding the project please visit project page.
 
 ---
 
+# Logic behind
+
+In our world the bicycle is a system that has a couple of equilibriums. The one where the bicycle is laying on the ground is the stable equilibrium and the one in which it is standing perpendicularly to the ground is the unstable equilibrum. The one we are interested in is the unstable equilibrium, the case where the bicycle's position is perpendicular to the ground.
+Since it is an unstable equilibrium and the system unevitably will face some disturbances we need to include a controller that will help remain desired position with the input to the system. 
+
+The bicycle model system is constructed using a feedback controller. In each time frame the controller has the information about the current state of relevant parameters in the system and based on them it creates an input that is applied in the system and which is used to stabilize the bicycle's behaviour. 
+
+In real life the controller is the rider since with maneuvering the bicycle handles and applying some torque to them the rider can achieve stabilizable state.
+
+Since modelling modelling a controller that will imitate rider's behaviour is quite challenging We will restrict ourselves to the simpler case in which the bicycle does not have a rider and the controller then represents free movement of the bicycle fork when the bicycle is moving with a certain speed.
+
+---
+
 [![Whipple-Carvalo bicycle model v3.5](https://img.youtube.com/vi/Paf1Ywdv4PY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Paf1Ywdv4PY&ab_channel=danyloG)
 
 [![Whipple-Carvalo bicycle model v4](https://img.youtube.com/vi/nCJ1wVmVlJw/maxresdefault.jpg)](https://www.youtube.com/watch?v=nCJ1wVmVlJw&ab_channel=danyloG)
