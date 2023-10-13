@@ -23,6 +23,23 @@ Since modelling modelling a controller that will imitate rider's behaviour is qu
 
 ---
 
+## Setup
+**Note:** This project is written with Matlab, and you will need Matlab software to run it.
+
+- To clone the repository to your local directory run: 
+~~~
+$ git clone https://github.com/letber/Whipple-Bicycle
+~~~
+
+-  In order to open main module in Matlab run this command in the terminal:
+~~~
+$ matlab bicycle.m
+~~~ 
+
+Alternatively you can also open Matlab IDE and run main module $bicycle.m$ in it.
+
+---
+
 [![Whipple-Carvalo bicycle model v3.5](https://img.youtube.com/vi/Paf1Ywdv4PY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Paf1Ywdv4PY&ab_channel=danyloG)
 
 [![Whipple-Carvalo bicycle model v4](https://img.youtube.com/vi/nCJ1wVmVlJw/maxresdefault.jpg)](https://www.youtube.com/watch?v=nCJ1wVmVlJw&ab_channel=danyloG)
